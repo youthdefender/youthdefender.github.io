@@ -43,12 +43,9 @@
 
 	
 </head>
-	<body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen c-layout-header-topbar c-layout-header-topbar-collapse">
-
-
-
-<header class="c-layout-header c-layout-header-2 c-layout-header-dark-mobile c-header-transparent-dark" data-minimize-offset="80">
-		<div class="c-topbar c-topbar-dark">
+	<body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-topbar c-layout-header-topbar-collapse">
+        <header class="c-layout-header c-layout-header-3 c-layout-header-3-custom-menu c-layout-header-dark-mobile" data-minimize-offset="80">
+		<div class="c-topbar c-topbar-light c-solid-bg">
 		<div class="container-fluid">
 			<nav class="c-top-menu c-pull-left">
 				<ul class="c-icons c-theme-ul">
@@ -162,9 +159,8 @@
 </header>
 
 <div class="c-layout-page">
-	<div class="c-layout-breadcrumbs-1 c-bgimage-full c-fonts-uppercase c-fonts-bold c-bg-img-center" style="background-image: url(../assets/base/img/breadcrumbs/bg-02.jpg)">
-		<div class="c-breadcrumbs-wrapper">
-			<div class="container">
+	<div class="c-layout-breadcrumbs-1 c-subtitle c-fonts-bold c-bordered c-bordered-both">		
+		<div class="container">
 			<div class="c-page-title c-pull-left">
 				<h3 class="c-font-uppercase c-font-bold c-font-white c-font-20 c-font-slim c-opacity-09">Join Now</h3>
 			</div>
@@ -172,13 +168,11 @@
 				<li><a href="../home.html">Home</a></li>
 				<li class="c-font-white">/</li>
 				<li><a href="../membership-center.html">Membership Center</a></li>
-				<li>/</li>
+				<li class="c-font-white">/</li>
 				<li class="c-state_active">Join Now</li>
 			</ul>
-		</div>
+		</div>		
 	</div>
-</div>
-
 <div class="container">
 			<div class="c-layout-sidebar-menu c-theme ">
 			<!-- BEGIN: LAYOUT/SIDEBARS/SIDEBAR-MENU-1 -->
@@ -221,162 +215,17 @@
 				<h3 class="c-font-uppercase c-font-bold">Join Now</h3>
 			</div>
 
-			<div class="c-content-panel">
-					<div class="c-body">
-						<form  class="form-horizontal" id="membershipForm" name="membershipForm" action="" method="post" enctype="multipart/form-data">
-						
-
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">Applicant Name <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="text" class="form-control  c-square c-theme" id="applicant_name" name="applicant_name" placeholder="Applicant Name" required><!-- required -->
-							  	</div>
-							</div>
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">S/O W/O <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="text" class="form-control  c-square c-theme" id="sonof_or_wife" name="sonof_or_wife" placeholder="S/O W/O" required >
-							  	</div>
-							</div>
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">Contact Number Office <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type=number"" class="form-control  c-square c-theme" id="contact_number_office" name="contact_number_office" placeholder="Contact Number Office" required >
-							  	</div>
-							</div>
-							
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">Contact Number Home <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="number" class="form-control  c-square c-theme" id="contact_number_home" name="contact_number_home" placeholder="Contact Number Home" required >
-							  	</div>
-							</div>						
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">E-Mail Address <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="email" class="form-control  c-square c-theme" id="email_address" name="email_address" placeholder="E-Mail Address" required >
-							  	</div>
-							</div>
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">Permanent Address <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<textarea id="permanent_address" name="permanent_address" class="form-control  c-square c-theme" rows="3" required></textarea>
-							    </div>
-							</div>
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">Date of Birth <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="date" class="form-control  c-square c-theme" id="date_of_birth" name="date_of_birth" placeholder="Date of Birth" required>
-							  	</div>
-							</div>
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">Place of Birth <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="text" class="form-control  c-square c-theme" id="place_of_birth" name="place_of_birth" placeholder="Place of Birth" required >
-							  	</div>
-							</div>
-
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">CNIC <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="text" class="form-control  c-square c-theme" id="cnic_member" name="cnic_member" placeholder="CNIC" required>
-							  	</div>
-							</div>
-							<div class="form-group">
-							   	<label class="col-md-4 control-label">Qualification <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="text" class="form-control  c-square c-theme" id="qualification" name="qualification" placeholder="Qualification" required>
-							  	</div>
-							</div>
-							
-							<div class="form-group">
-							   	<label for="inputEmail3-11" class="col-md-4 control-label">Profession <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="text" class="form-control  c-square c-theme active" id="profession" name="profession" placeholder="Your Current Profession" required>
-							  	</div>
-							</div>
-							<div class="form-group">
-							   	<label for="inputEmail3-11" class="col-md-4 control-label">Designation <span class="required">*</span></label>
-							   	<div class="col-md-6">
-							   		<input type="text" class="form-control  c-square c-theme active" id="designation" name="designation" placeholder="Designation Applying For"  required>
-							  	</div>
-							</div>
-							<div class="form-group">
-								<label for="upload_picture_1" class="col-md-4 control-label">Upload Pic <span class="required">*</span></label>
-								<div class="col-md-6">
-									<input type="file" id="upload_picture_1" name="upload_picture_1" class="c-font-14" required>
-									<p class="help-block">
-										Upload your passport picture.
-									</p>
-								</div>
-							</div>
-
-							<div class="form-group">
-								<label for="upload_picture_2" class="col-md-4 control-label">Upload CNIC Pic <span class="required">*</span></label>
-								<div class="col-md-6">
-									<input type="file" id="upload_picture_2" name="upload_picture_2" class="c-font-14" required>
-									<p class="help-block">
-										Upload your CNIC copy both side on one page.
-									</p>
-								</div>
-							</div>
-
-							 <div class="form-group">
-								<label for="upload_picture_2" class="col-md-4 control-label"></label>
-								<div class="col-md-6">
-									<div id="error-captcha"></div>
-								</div>
-							</div> 
-
-
-							 <div class="form-group">
-								<label for="upload_picture_2" class="col-md-4 control-label"></label>
-								<div class="col-md-6">
-									<div class="g-recaptcha" data-sitekey="6Leqhj8UAAAAAJUClMxgV2V_T7iF5jdlII60FYZW"></div>
-								</div>
-							</div> 
-
-							<div class="form-group">
-								<label for="upload_picture_2" class="col-md-4 control-label"></label>
-								<div class="col-md-6">
-									<div id="success"></div>
-								</div>
-							</div> 
-							<div class="form-group" style="position:relative;">
-								<label for="upload_picture_2" class="col-md-4 control-label"></label>
-								<div class="col-md-6">
-									<img src="../ajax-loader.gif" id="loading-indicator" style="display:none" />
-								</div>
-							</div>
-
-
-
-							
-
-							
-							
-
-							<div class="form-group c-margin-t-40">
-							   	<div class="col-sm-offset-4 col-md-8">
-							   		<button type="submit" name="submit" id="submit" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">Submit</button> 
-							  	</div>
-							</div>
-						</form>
-						
-	
-					</div>
-				</div>
-			
+			<p class="text-justify c-font-18 c-font-black">Youth Defender is a joint program of <strong>Network For Human Rights & Justice (NHRJ)</strong> and <strong>Youth For Pakistan (YFP)</strong>. Its primary objectives are to promote and protect Human Rights and to help the poor and down trodden in securing their rights through advocacy, research, legal aid and financial assistance. Youth Defender with this leverage bring all national organization, institutions and human rights defenders to press for change in policy and practice that promote and implement declarations, covenants, protocols and communiqués related to Human Rights and justice around the country.</p>
+			<a href="../complaints-center/make-complaint.html" class="btn btn-lg c-btn-blue-2 c-btn-square c-btn-bold wow animated fadeIn">Fill Membership Form</a>
 			</div>			<!-- END: PAGE CONTENT -->
 			</div>
 	
 		</div>
 
 
-
-<div class="c-content-box c-size-md c-no-padding c-bg-white">
+<div class="c-content-box c-size-md c-no-padding c-bg-black">
 		<div class="c-content-feature-4">
-			<div class="c-bg-parallax c-feature-bg c-content-right c-arrow c-border-left-white" style="background-image: url(../assets/base/img//bg-hr-01.jpg)"></div>		
+			<div class="c-bg-parallax c-feature-bg c-content-right c-arrow c-border-left-black" style="background-image: url(../assets/base/img/bg-hr-02.jpg)"></div>		
 			<div class="c-content-area c-content-left"></div>		
 			<div class="container">
 				<div class="c-feature-content c-left">
@@ -384,14 +233,14 @@
 						<div class="c-wrapper">
 							<div class="c-body">
 								<div class="c-content-title-1 animated wow fadeInDown" data-wow-delay="0.2s">
-									<h3 class="c-font-uppercase c-font-bold c-left">Reporting Incident</h3>
+									<h3 class="c-font-uppercase c-font-white c-font-bold c-left">Reporting Incident</h3>
 									<div class="c-line-left"></div>
 								</div>
-								<div class="c-content animated wow fadeInDown" data-wow-delay="0.7s">
-									<p class="c-margin-b-30 c-left">Every person is entitled to certain fundamental rights, simply by the fact of being human. Raise a concern and help the authorities to identify patterns and trends in the incidents reported in order to improve the way we respond to reports.
+								<div class="c-content c-font-white animated wow fadeInDown" data-wow-delay="0.7s">
+									<p class="c-margin-b-30 text-justify">Every person is entitled to certain fundamental rights, simply by the fact of being human. Raise a concern and help the authorities to identify patterns and trends in the incidents reported in order to improve the way we respond to reports.
 									</p>
 									
-									<a href="../complaints-center/make-complaint.html" class="btn btn-lg c-btn-red c-btn-square c-btn-bold wow animated fadeIn">Report HR Abuse</a>
+									<a href="../complaints-center/make-complaint.html" class="btn btn-lg c-btn-green-4 c-btn-square c-btn-bold wow animated fadeIn">Report HR Abuse</a>
 								</div>
 							</div>
 						</div>
@@ -404,7 +253,7 @@
 
 	<div class="c-content-box c-size-md c-no-padding c-bg-blue">
 		<div class="c-content-feature-4">
-			<div class="c-bg-parallax c-feature-bg c-content-left c-arrow c-border-right-blue" style="background-image: url(../assets/base/img//bg-hr-01.jpg)"></div>		
+			<div class="c-bg-parallax c-feature-bg c-content-left c-arrow c-border-right-blue" style="background-image: url(../assets/base/img/bg-hr-01.jpg)"></div>		
 			<div class="c-content-area c-content-right"></div>		
 			<div class="container">
 				<div class="c-feature-content c-right">
@@ -417,7 +266,7 @@
 									<p class="c-right c-font-white">Nationwide network of lawyers and social activists.</p>
 								</div>
 								<div class="c-content animated wow fadeInDown" data-wow-delay="0.7s">
-									<p class="c-margin-b-30 c-right c-font-white">Human Rights Legal Network is a nationwide network of lawyers and social activists who fight to combat injustice and protect the fundamental rights of marginalized communities and individuals through the use of the legal system.</p>
+									<p class="c-margin-b-30 text-justify c-font-white">Human Rights Legal Network is a nationwide network of lawyers and social activists who fight to combat injustice and protect the fundamental rights of marginalized communities and individuals through the use of the legal system.</p>
 									
 									<a href="../networks.html" class="btn btn-lg c-btn-red c-btn-square c-btn-bold wow animated fadeIn">Network Center</a>
 								</div>
@@ -430,8 +279,108 @@
 		</div>
 	</div>
 	
-
-
+	<div class="c-content-box c-size-md c-bg-white">
+		<div class="container">
+		<div class="c-content-person-1-slider" data-slider="owl">
+			<div class="c-content-title-1 wow animated fadeIn">
+				<h3 class="c-center c-font-uppercase c-font-bold">Membership Directory</h3>
+				<div class="c-line-center c-theme-bg"></div>
+			</div>
+			<div class="owl-carousel owl-theme c-theme c-owl-nav-center wow animated fadeInUp" data-items="3" data-slide-speed="8000" data-rtl="false"> 
+		  		<div class="c-content-person-1 c-option-2">
+		  			<div class="c-caption c-content-overlay">
+					<div class="c-overlay-wrapper">
+			  				<div class="c-overlay-content">
+				  				<a href="../membership/m-sindh.html"><i class="icon-link"></i></a>
+				  			</div>
+		  				</div>
+		  				<img src="../assets/base/img/directory/sindh.jpg" class="img-responsive c-overlay-object" alt="">
+		  			</div>
+		  			<div class="c-body">
+			  			<div class="c-head c-center">
+			  				<div class="c-name c-theme-font c-font-bold">Sindh Directory</div>
+			  			</div>
+	                </div>
+                </div>
+				<div class="c-content-person-1 c-option-2">
+		  			<div class="c-caption c-content-overlay">
+					<div class="c-overlay-wrapper">
+			  				<div class="c-overlay-content">
+				  				<a href="../membership/m-punjab.html"><i class="icon-link"></i></a>
+				  			</div>
+		  				</div>
+		  				<img src="../assets/base/img/directory/punjab.jpg" class="img-responsive c-overlay-object" alt="">
+		  			</div>
+		  			<div class="c-body">
+			  			<div class="c-head c-center">
+			  				<div class="c-name c-theme-font c-font-bold">Punjab Directory</div>
+			  			</div>
+	                </div>
+                </div>
+				<div class="c-content-person-1 c-option-2">
+		  			<div class="c-caption c-content-overlay">
+					<div class="c-overlay-wrapper">
+			  				<div class="c-overlay-content">
+				  				<a href="../membership/m-khyber-pakhtunkhwa.html"><i class="icon-link"></i></a>
+				  			</div>
+		  				</div>
+		  				<img src="../assets/base/img/directory/kpk.jpg" class="img-responsive c-overlay-object" alt="">
+		  			</div>
+		  			<div class="c-body">
+			  			<div class="c-head c-center">
+			  				<div class="c-name c-theme-font c-font-bold">KPK Directory</div>
+			  			</div>
+	                </div>
+                </div>
+				<div class="c-content-person-1 c-option-2">
+		  			<div class="c-caption c-content-overlay">
+					<div class="c-overlay-wrapper">
+			  				<div class="c-overlay-content">
+				  				<a href="../membership/m-balochistan.html"><i class="icon-link"></i></a>
+				  			</div>
+		  				</div>
+		  				<img src="../assets/base/img/directory/balochistan.jpg" class="img-responsive c-overlay-object" alt="">
+		  			</div>
+		  			<div class="c-body">
+			  			<div class="c-head c-center">
+			  				<div class="c-name c-theme-font c-font-bold">Balochistan Directory</div>
+			  			</div>
+	                </div>
+                </div>
+				<div class="c-content-person-1 c-option-2">
+		  			<div class="c-caption c-content-overlay">
+					<div class="c-overlay-wrapper">
+			  				<div class="c-overlay-content">
+				  				<a href="../membership/m-azad-kashmir.html"><i class="icon-link"></i></a>
+				  			</div>
+		  				</div>
+		  				<img src="../assets/base/img/directory/ajk.jpg" class="img-responsive c-overlay-object" alt="">
+		  			</div>
+		  			<div class="c-body">
+			  			<div class="c-head c-center">
+			  				<div class="c-name c-theme-font c-font-bold">AJK Directory</div>
+			  			</div>
+	                </div>
+                </div>
+				<div class="c-content-person-1 c-option-2">
+		  			<div class="c-caption c-content-overlay">
+					<div class="c-overlay-wrapper">
+			  				<div class="c-overlay-content">
+				  				<a href="../membership/m-gilgit-baltistan.html"><i class="icon-link"></i></a>
+				  			</div>
+		  				</div>
+		  				<img src="../assets/base/img/directory/g-baltistan.jpg" class="img-responsive c-overlay-object" alt="">
+		  			</div>
+		  			<div class="c-body">
+			  			<div class="c-head c-center">
+			  				<div class="c-name c-theme-font c-font-bold">G-Baltistan Directory</div>
+			  			</div>
+	                </div>
+                </div>
+			</div>			 
+	     </div>
+	 </div>
+</div>
 
 </div>
 	
@@ -475,7 +424,7 @@
 						</div>
 						<p class="c-address c-font-white c-font-16">
 							#177, St 03, Razzaq Vally Housing Scheme,<br/> Kurri Road, Pindoriyan, Express Highway, <br/> Islamabad, </br> Phone & Fax: +92 51 2603377
-							<br/> Email: <a href="mailto:info@youthdefender.org"><span class="c-theme-color">info@youthdefender.org</span></a>
+							<br/> Email: <a href="mailto:info@youthdefender.org"><span class="c-font-white">info@youthdefender.org</span></a>
 						</p><br/>
 						<div class="socicon">
 							<a href="#" class="socicon-btn socicon-btn-square socicon-lg socicon-solid c-theme-bg c-font-white c-bg-red-hover socicon-facebook tooltips" data-original-title="Facebook"></a>
@@ -492,8 +441,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 c-col">
-					<p class="c-copyright c-font-grey"><strong>2020 &copy; Youth Defender</strong>
-						<span class="c-font-grey">Manage by: <strong>(NHRJ)</strong> and <strong>(YFP)</strong></span>
+					
+						<p class="c-copyright c-font-grey"><strong>2020 &copy; Youth Defender.</strong> All rights reserved.</p> 
 					</p>         
 				</div>
 			</div>
