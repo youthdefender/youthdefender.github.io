@@ -697,11 +697,11 @@ label.control-label {
     background: #ffffff; }
 
 .c-btn-green-4 {
-  border-color: #3cb878;
+  border-color: #fff;
   border-width: 1px;
-  color: #ffffff;
-  background: #3cb878;
-  border-color: #3cb878; }
+  color: #a70424;
+  background: #fff;
+  border-color: #e73946; }
   .c-btn-green-4.btn-no-focus:focus, .c-btn-green-4.btn-no-focus.focus {
     color: #ffffff;
     background: #3cb878;
@@ -709,8 +709,8 @@ label.control-label {
   .c-btn-green-4.btn-no-focus:hover, .c-btn-green-4:hover, .c-btn-green-4.btn-no-focus:active, .c-btn-green-4:active, .c-btn-green-4.active,
   .open > .c-btn-green-4.dropdown-toggle {
     color: #ffffff;
-    background: #329964;
-    border-color: #329964; }
+    background: #e73946;
+    border-color: #e73946; }
   .c-btn-green-4:active, .c-btn-green-4.active,
   .open > .c-btn-green-4.dropdown-toggle {
     background-image: none; }
@@ -728,11 +728,10 @@ label.control-label {
     background: #ffffff; }
 
 .c-btn-red {
-  border-color: #eb5d68;
   border-width: 1px;
   color: #ffffff;
-  background: #eb5d68;
-  border-color: #eb5d68; }
+  background: #a80323;
+  border-color: #a80323; }
   .c-btn-red.btn-no-focus:focus, .c-btn-red.btn-no-focus.focus {
     color: #ffffff;
     background: #eb5d68;

@@ -4,7 +4,7 @@ THEME COLOR - DEFAULT
 a {
   color: #3f444a;; }
   a:active, a:hover, a:focus {
-    color: #2159a8; }
+    color: #fff; }
 
 .c-theme-link:focus, .c-theme-link:active, .c-theme-link:hover {
   color: #2159a8 !important; }
@@ -146,8 +146,8 @@ a {
 
 .c-theme-btn.btn {
   color: #ffffff;
-  background: #2159a8;
-  border-color: #2159a8; }
+  background: #002a5c;
+  border-color: #002a5c; }
   .c-theme-btn.btn.btn-no-focus:focus, .c-theme-btn.btn.btn-no-focus.focus {
     color: #ffffff;
     background: #2159a8;
@@ -155,8 +155,8 @@ a {
   .c-theme-btn.btn.btn-no-focus:hover, .c-theme-btn.btn:hover, .c-theme-btn.btn.btn-no-focus:active, .c-theme-btn.btn:active, .c-theme-btn.btn.active,
   .open > .c-theme-btn.btn.dropdown-toggle {
     color: #ffffff;
-    background: #27a8b4;
-    border-color: #27a8b4; }
+    background: #001e42;
+    border-color: #001e42; }
   .c-theme-btn.btn:active, .c-theme-btn.btn.active,
   .open > .c-theme-btn.btn.dropdown-toggle {
     background-image: none; }
@@ -270,26 +270,27 @@ a {
   border-left-color: #2159a8; }
 
 .c-content-accordion-1.c-theme .panel > .panel-heading > .panel-title > a {
-  background-color: #2159a8; }
+  background-color: #a80323; }
   .c-content-accordion-1.c-theme .panel > .panel-heading > .panel-title > a.collapsed {
     background-color: #ffffff; }
     .c-content-accordion-1.c-theme .panel > .panel-heading > .panel-title > a.collapsed:hover, .c-content-accordion-1.c-theme .panel > .panel-heading > .panel-title > a.collapsed:focus {
-      background-color: #2159a8; }
+      background-color: #a80323; }
 
 .c-content-accordion-1.c-theme .panel > .panel-collapse > .panel-body {
-  background-color: #2159a8; }
+  background-color: #a80323; }
 
 .c-mega-menu-onepage-dots.c-theme .c-onepage-dots-nav > li.c-onepage-link:hover > a, .c-mega-menu-onepage-dots.c-theme .c-onepage-dots-nav > li.c-onepage-link.c-active > a, .c-mega-menu-onepage-dots.c-theme .c-onepage-dots-nav > li.c-onepage-link.active > a {
   background: rgba(50, 197, 210, 0.9); }
 
 .c-layout-sidebar-menu.c-theme .c-sidebar-menu li.c-active > a {
   transition: all 0.2s;
-  color: #2159a8; }
+  color: #fff;
+  font-weight: bold;  }
   .c-layout-sidebar-menu.c-theme .c-sidebar-menu li.c-active > a > .c-arrow {
     color: #2159a8; }
 
 .c-layout-sidebar-menu.c-theme .c-sidebar-menu li .c-dropdown-menu > li:hover > a {
-  color: #2159a8; }
+  color: #d2cccc; }
 
 .c-layout-sidebar-menu.c-theme .c-sidebar-menu.c-option-2 > li.c-active > a {
   transition: all 0.2s;
