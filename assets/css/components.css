@@ -10437,7 +10437,7 @@ h1 {
       .c-content-person-1 .c-body .c-head .c-socials > li > a:hover {
         text-decoration: none; }
       .c-content-person-1 .c-body .c-head .c-socials > li > a > i {
-        color: #a3aeb9;
+        color: #fff;
         padding: 4px;
         font-size: 16px;
         border-radius: 100%; }
@@ -10449,9 +10449,8 @@ h1 {
     margin-top: 0px;
     display: inline-block;
     float: left;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    text-transform: uppercase;
     color: #7a838e; }
   .c-content-person-1 .c-body p {
     display: block;
@@ -10460,8 +10459,8 @@ h1 {
     color: #5c6873; }
 
 .c-content-person-1.c-option-2 .c-body {
-  padding: 30px;
-  background: #fff; }
+  padding: 5px;
+  background: #a70424; }
   .c-content-person-1.c-option-2 .c-body p {
     padding-bottom: 0; }
 
