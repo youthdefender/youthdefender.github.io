@@ -7027,7 +7027,8 @@ h1 {
   position: relative; }
   .c-content-overlay .c-overlay-object {
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    padding: 5px;	}
   .c-content-overlay .c-overlay-wrapper {
     opacity: 0;
     filter: alpha(opacity=0);
