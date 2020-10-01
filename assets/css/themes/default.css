@@ -285,6 +285,7 @@ a {
 .c-layout-sidebar-menu.c-theme .c-sidebar-menu li.c-active > a {
   transition: all 0.2s;
   color: #fff;
+  font-size: 14px;
   font-weight: bold;  }
   .c-layout-sidebar-menu.c-theme .c-sidebar-menu li.c-active > a > .c-arrow {
     color: #2159a8; }
@@ -295,7 +296,7 @@ a {
 .c-layout-sidebar-menu.c-theme .c-sidebar-menu.c-option-2 > li.c-active > a {
   transition: all 0.2s;
   color: #ffffff;
-  background-color: #2159a8; }
+  background-color: #001e42; }
   .c-layout-sidebar-menu.c-theme .c-sidebar-menu.c-option-2 > li.c-active > a > .c-arrow {
     color: #ffffff; }
 
