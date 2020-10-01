@@ -4987,7 +4987,7 @@ h1 {
       background: #001e42;
       color: #000000; }
   .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-light > .nav.navbar-nav > li > .dropdown-menu.c-menu-type-classic .dropdown-menu {
-    background: #2159a8; }
+    background: #002a5c; }
   .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-light > .nav.navbar-nav > li > .dropdown-menu.c-menu-type-mega > .row > div {
     border-right: 1px solid #f2f2f2; }
   .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-light > .nav.navbar-nav > li > .dropdown-menu.c-menu-type-mega .nav.nav-tabs {
@@ -6543,7 +6543,9 @@ h1 {
     padding: 0;
     width: 50%; }
     .c-layout-footer-6 .c-body .c-links > li {
-      list-style-type: none;
+      font-size: 16px;
+	  font-family: "Roboto Condensed", sans-serif;
+	  list-style-type: none;
       line-height: 30px; }
   .c-layout-footer-6 .c-body .c-address {
     margin: 0; }
