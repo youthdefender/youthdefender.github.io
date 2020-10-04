@@ -4,7 +4,7 @@ THEME COLOR - DEFAULT
 a {
   color: #3f444a;; }
   a:active, a:hover, a:focus {
-    color: #fff; }
+    color: #001e42; }
 
 .c-theme-link:focus, .c-theme-link:active, .c-theme-link:hover {
   color: #2159a8 !important; }

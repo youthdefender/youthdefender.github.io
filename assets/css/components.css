@@ -9723,7 +9723,9 @@ h1 {
     margin-bottom: 60px; } }
 
 .c-content-feature-1 {
-  padding-right: 40px; }
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  background: #002a5c;  }
   .c-content-feature-1 > h4 {
     font-size: 18px;
     color: #3f444a;
@@ -9731,18 +9733,18 @@ h1 {
     font-weight: 500;
     text-transform: uppercase; }
   .c-content-feature-1 p {
-    font-size: 18px;
+    font-size: 15px;
     color: #5c6873; }
   .c-content-feature-1 > h3 {
-    font-size: 30px;
+    font-size: 18px;
     color: #3f444a;
     font-weight: 500;
-    margin: 30px 0 25px 0; }
+    margin: 20px 0 20px 0; }
 
 @media (max-width: 991px) {
   /* 991px */
   .c-content-feature-1 {
-    padding-right: 20px; } }
+    padding-right: 20px;	} }
 
 .c-content-feature-2 {
   padding: 40px 40px 40px 40px;
